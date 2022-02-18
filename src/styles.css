@@ -43,3 +43,33 @@ h6 {
   vertical-align: -0.125em;
   fill: currentColor;
 }
+
+/* @media screen and (max-width: 768px) {
+  .py-3 {
+    padding: 15px 20px;
+  }
+  .nav-logo .fs-1 {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nav-pills {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+  .nav-logo .fs-1 {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  ul li {
+    display: none;
+  }
+}
