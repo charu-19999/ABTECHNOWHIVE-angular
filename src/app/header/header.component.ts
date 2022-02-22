@@ -20,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   ImagePath: string;
+
   constructor() {
     this.ImagePath = './assets/logo/AB LOGO.png';
   }
