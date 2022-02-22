@@ -10,6 +10,9 @@
 .py-2 .container a {
   text-decoration: none;
 }
+.fix {
+  background-color: #fff;
+}
 nav {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
 }
