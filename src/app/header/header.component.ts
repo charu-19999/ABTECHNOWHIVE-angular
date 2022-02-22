@@ -20,6 +20,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   ImagePath: string;
+  public isCollapsed: boolean = true;
 
   constructor() {
     this.ImagePath = './assets/logo/AB LOGO.png';
