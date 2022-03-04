@@ -1,0 +1,868 @@
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Programing Language</h2>
+          <p class="pragraph">
+            Become a technology expert who can work on both in the front-end &
+            back-end of any application.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/core-java.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Core Java</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="1">
+            Core Java Tutorial for beginners to learn the basic concepts of Core
+            Java. <input type="checkbox" id="check_id" /><label
+              for="check_id"
+            ></label>
+            Here you will learn the fundamentals of Core Java (Class, Interface,
+            etc.). These sections also contain a cheat sheet for a quick preview
+            of what you have learned on a given topic.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/html5.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>HTML 5</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="2">
+            This tutorial has been designed for beginners in HTML5 to make them
+            understand the basic-to-advanced concepts of the subject.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img class="img-fluid" src="../../assets/course/css3.jpg" alt="" />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>CSS 3</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="3">
+            Cascading Style Sheets (CSS) is a style sheet language used for
+            describing the look and formatting of a document written in a markup
+            language.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/bootstrap.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Bootstrap</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/javascript.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>JavaScript</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="5">
+            JavaScript Tutorial is designed for beginners and professionals
+            both. JavaScript is used to create client-side dynamic pages.
+            JavaScript is an object-based scripting language which is
+            lightweight and cross-platform.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/typescript.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Typescript</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="6">
+            TypeScript is a strongly typed programming language that builds on
+            JavaScript, giving you better tooling at any scale.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/angular.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Angular 13</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }" id="7">
+            This tutorial introduces you to the essentials of Angular by walking
+            you through building an e-commerce site with a catalog, shopping
+            cart, and check-out form.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Technology</h2>
+          <p class="pragraph">
+            Technology can be the knowledge of techniques, processes, and the
+            like, or it can be embedded in machines to allow for operation
+            without detailed knowledge of their workings.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/survlet.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Servlets</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Servlets are the Java programs that run on the Java-enabled web
+            server or application server. They are used to handle the request
+            obtained from the webserver, process the request, produce the
+            response, then send a response back to the webserver
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/spring.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Spring</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Spring is a lightweight framework. It can be thought of as a
+            framework of frameworks because it provides support to various
+            frameworks such as Struts, Hibernate, Tapestry, EJB, JSF, etc. The
+            framework, in broader sense, can be defined as a structure where we
+            find solution of the various technical problems.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/spring-boot.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Spring Boot</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Spring Boot is an open source Java-based framework used to create a
+            micro Service. It is developed by Pivotal Team and is used to build
+            stand-alone and production ready spring applications. This chapter
+            will give you an introduction to Spring Boot and familiarizes you
+            with its basic concepts.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/hybernate.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Hibernate</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Hibernate is a Java framework that simplifies the development of
+            Java application to interact with the database. It is an open
+            source, lightweight, ORM (Object Relational Mapping) tool. Hibernate
+            implements the specifications of JPA (Java Persistence API) for data
+            persistence.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/microservice.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Spring Microservices</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Microservices are a modern approach to software whereby application
+            code is delivered in small, manageable pieces, independent of
+            others.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/kafka.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Apache Kafka</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Apache Kafka is an open-source stream-processing software platform
+            which is used to handle the real-time data storage. It works as a
+            broker between two parties, i.e., a sender and a receiver. It can
+            handle about trillions of data events in a day.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Spring Modules</h2>
+          <p class="pragraph">
+            Spring module is provided in the default configuration.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img class="img-fluid" src="../../assets/course/jda.jpg" alt="" />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>JDA(Java Discord API)</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            JDA strives to provide a clean and full wrapping of the Discord REST
+            api and its Websocket-Events for Java. This library is a helpful
+            tool that provides the functionality to create a discord bot in
+            java.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/spring.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>JTA(Java Transaction API)</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            The Java™ Transaction API (JTA) allows applications to perform
+            distributed transactions, that is, transactions that access and
+            update data on two or more networked computer resources.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Database</h2>
+          <p class="pragraph">
+            In computing, a database is an organized collection of data stored
+            and accessed electronically.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img class="img-fluid" src="../../assets/course/mysql.jpg" alt="" />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>My SQL</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            MySQL is a very powerful program in its own right. It handles a
+            large subset of the functionality of the most expensive and powerful
+            database packages.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/nosql.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>No SQL</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            A NoSQL originally referring to non SQL or non relational is a
+            database that provides a mechanism for storage and retrieval of
+            data. This data is modeled in means other than the tabular relations
+            used in relational databases.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/mongodb.jpeg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Mongo DB</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            MongoDB is a cross-platform, document oriented database that
+            provides, high performance, high availability, and easy scalability.
+            MongoDB works on concept of collection and document.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Repository Management</h2>
+          <p class="pragraph">
+            Repository management software controls access to software packages,
+            tracks package deployments, and includes or integrates with version
+            control systems
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img class="img-fluid" src="../../assets/course/git.jpg" alt="" />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>GIT</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Git tutorial provides basic and advanced concepts of Git and GitHub.
+            Our Git tutorial is designed for beginners and professionals.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/bigbucket.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Bitbucket</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Bitbucket is a Git-based source code repository hosting service
+            owned by Atlassian. Bitbucket offers both commercial plans and free
+            accounts with an unlimited number of private repositories.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Project Management</h2>
+          <p class="pragraph">
+            Project management is the process of leading the work of a team to
+            achieve all project goals within the given constraints.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img class="img-fluid" src="../../assets/course/jira.png" alt="" />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Jira</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            JIRA is an Incident Management Tool used for Project Management, Bug
+            Tracking, Issue Tracking and Workflow. JIRA is based on the
+            following three concepts – Project, Issue and Workflow.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+
+<!-- Start popular-courses Area -->
+
+<section class="popular-courses-area section-gap courses-page">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="menu-content pb-70 col-lg-8">
+        <div class="title text-center">
+          <h2 class="course-heading mb-10">Server</h2>
+          <p class="pragraph">
+            A server is a computer or system that provides resources, data,
+            services, or programs to other computers, known as clients, over a
+            network.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid"
+              src="../../assets/course/tomcat.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Apache Tomcat</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            The Apache Tomcatr software is an open source implementation of the
+            Java Servlet, JavaServer Pages, Java Expression Language and Java
+            WebSocket technologies. The Java Servlet, JavaServer Pages, Java
+            Expression Language and Java WebSocket specifications are developed
+            under the Java Community Process.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/jboss.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>J Boss</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            JBoss or JBoss Application Server, recently named Wildfly is the
+            application server developed to implement Java and web-based
+            applications using Java EE (J2EE). JBoss is an open-source
+            application server, a division of Red Hat, specifically used to
+            create, manage, integrate the applications, data, and devices.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+
+      <div class="single-popular-carusel col-lg-3 col-md-6">
+        <div class="thumb-wrap relative">
+          <div class="thumb relative">
+            <div class="overlay overlay-bg"></div>
+            <img
+              class="img-fluid img"
+              src="../../assets/course/firebase.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="details">
+          <a href="#">
+            <h4>Firebase</h4>
+          </a>
+          <p [ngClass]="{ 'show-less': showShortDesciption }">
+            Firebase is a backend platform for building Web, Android and IOS
+            applications. It offers real time database, different APIs, multiple
+            authentication types and hosting platform. This is an introductory
+            tutorial, which covers the basics of the Firebase platform and
+            explains how to deal with its various components and sub-components.
+          </p>
+          <button
+            type="button"
+            class="btn btn-outline-primary"
+            (click)="alterDescriptionText()"
+          >
+            {{ showShortDesciption ? "Show More" : "Show Less" }}>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End popular-courses Area -->
+

@@ -1,0 +1,94 @@
+.card-img-bottom {
+  color: #fff;
+  width: 600px;
+  height: 380px;
+  background: url(../../assets/course/home.gif) center no-repeat;
+  background-size: cover;
+}
+
+.card-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-head {
+  color: #080542;
+  font-size: 52px;
+  transition: all 0.5s;
+}
+
+.main-head:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  background: -webkit-linear-gradient(#c381db, #4e92f9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  background-color: #f9ffff;
+}
+.btn1 {
+  /* display: inline-block; */
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  margin: auto;
+  text-align: center;
+
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  /* margin: 5px; */
+}
+
+.btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.btn1 span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1:hover span {
+  padding-right: 15px;
+}
+
+.btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.course-heading {
+  margin: 34px;
+}
+
+.details {
+  margin: 14px;
+}
+.show-less {
+  height: 8.2rem;
+  overflow: hidden;
+  padding: 0.5rem;
+  justify-content: center;
+}
+.pragraph {
+  margin: 30px;
+}
+
+.heading {
+  padding-top: 6rem;
+}
